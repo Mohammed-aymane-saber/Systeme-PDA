@@ -57,7 +57,7 @@ services:
     container_name: phpmyadmin
     restart: unless-stopped
     ports:
-      - "8081:80"  # phpMyAdmin interface
+      - "8082:80"  # phpMyAdmin interface
     environment:
       PMA_HOST: mysql
       PMA_PORT: 3306
