@@ -19,7 +19,6 @@ services:
       DB_USERNAME: root
       DB_PASSWORD: root
       REDIS_HOST: redis
-    command: bash -c "composer install && php-fpm && php artisan migrate"
 
   nginx:
     image: nginx:alpine
